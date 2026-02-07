@@ -1,0 +1,11 @@
+# مسیر اصلی دیتاست (این مسیر باید به پوشه ای اشاره کند که شامل پوشه های images و labels است)
+path: C:\Users\javad\Desktop\main project\dataset
+
+# مسیر تصاویر آموزش (نسبت به path بالا)
+train: images/train
+
+# مسیر تصاویر اعتبارسنجی (نسبت به path بالا)
+val: images/val
+
+nc: 1 
+names: ['tumar']
